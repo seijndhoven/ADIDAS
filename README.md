@@ -2,7 +2,7 @@
 
 Advanced Development for Internet where all Data Arrives Safely.
 
-This is a project containing three programs. This project is inspired by the Hamming(7,4) Code.
+This project is inspired by the Hamming(7,4) Code, it contains three programs:
 
 First of all we have the encode program. This program is used for encoding data with parity bits by splitting bytes in two nibbles, and then adding three parity bits to each nibble.
 
