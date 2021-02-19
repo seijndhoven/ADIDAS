@@ -13,7 +13,7 @@
  * @return: A byte where the fourth till seventh bits are data bits, 
  * and the first till third bits are the parity bits.
  */
-uint8_t create_parity(uint8_t nibble);
+uint8_t parity_create(uint8_t nibble);
 
 /*!
  * Remove parity bits from a byte by shifting the byte three places tot he left.
@@ -22,6 +22,6 @@ uint8_t create_parity(uint8_t nibble);
  *
  * @return: A nibble from the incomming byte where the parity is removed.
  */
-uint8_t remove_parity(uint8_t byte);
+uint8_t parity_remove(uint8_t byte);
 
 #endif

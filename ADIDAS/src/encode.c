@@ -15,6 +15,6 @@ void encode_value(uint8_t value, uint8_t* high, uint8_t* low)
 {
     encode_get_nibbles(value, low, high);
 
-    *high = *high << 3 | create_parity(*high);
-    *low = *low << 3 | create_parity(*low);
+    *high = *high << 3 | parity_create(*high);
+    *low = *low << 3 | parity_create(*low);
 }
